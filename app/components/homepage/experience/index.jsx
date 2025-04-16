@@ -1,4 +1,4 @@
-// @flow strict
+"use client"
 
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
@@ -55,17 +55,19 @@ function Experience() {
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
-                        </div>
+                        
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {experience.title}
-                          </p>
-                          <p className="text-sm sm:text-base">
-                            {experience.company}
-                          </p>
-                        </div>
+  <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+    {experience.title}
+  </p>
+  <p className="text-sm sm:text-base font-semibold text-gray-400">
+    {experience.company}
+  </p>
+  <p className="text-sm sm:text-base text-gray-300 mt-2">
+    {experience.description}
+  </p>
+</div>
+
                       </div>
                     </div>
                   </GlowCard>
