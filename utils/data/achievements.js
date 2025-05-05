@@ -23,7 +23,7 @@ export const blogData = [
     date: "June 2024",
     cover_image: "/image/web.jpg", // make sure this matches the actual image path
     description: "Completed a certified training program in Web Development, covering HTML, CSS, Bootstrap, JavaScript, and backend essentials.",
-    url: "https://trainings.internshala.com/s/v/3411307/adbf6db3"
+    url: "https://trainings.internshala.com/view_certificate/bk2xe2a03cs/7dskkk4feet/"
   },
   {
     id: 4,
